@@ -5,7 +5,7 @@
 int solutiontwo(double a, double b, double c, double *x1, double *x2);
 int solutionone(double a, double b, double *x1);
 int solutionline(double b, double c, double *x1);
-int nosolution(void);
+
 
 int solution(double a, double b, double c, double *x1, double *x2){
     double d;
@@ -43,9 +43,4 @@ int solutionline(double b, double c, double *x1)
 {
     *x1 = (-c) / b;
     return 1;
-}
-
-int nosolutions()
-{
-    return -1;
 }
