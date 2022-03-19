@@ -41,6 +41,14 @@ TEST(roots, tworoots)
     ASSERT_EQ(-5.0,x2);
 }
 
+TEST(roots, tworoots2)
+{
+    double x1 = 0, x2 = 0;
+    solution(1, 7, 11, &x1, &x2);
+    ASSERT_LT(-3.0,x1);
+    ASSERT_GT(-4.0,x2);
+}
+
 TEST(roots, oneroot)
 {
     double x1 = 0, x2 = 0;
