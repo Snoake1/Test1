@@ -1,8 +1,8 @@
-[![CI/CD GitHub Actions](https://github.com/Snoake1/Test1/actions/workflows/test-action.yml/badge.svg)](https://github.com/seekerk/gtest/actions/workflows/test-action.yml)
-[![Coverage Status](https://coveralls.io/repos/seekerk/gtest/badge.svg?branch=master)](https://coveralls.io/github/seekerk/gtest?branch=master)
-[![Quality Gate](https://sonarcloud.io/api/project_badges/measure?project=seekerk_gtest&metric=alert_status)](https://sonarcloud.io/dashboard?id=seekerk_gtest)
-[![Bugs](https://sonarcloud.io/api/project_badges/measure?project=seekerk_ctest&metric=bugs)](https://sonarcloud.io/summary/new_code?id=seekerk_ctest)
-[![Code smells](https://sonarcloud.io/api/project_badges/measure?project=seekerk_gtest&metric=code_smells)](https://sonarcloud.io/dashboard?id=seekerk_gtest)
+[![CI/CD GitHub Actions](https://github.com/Snoake1/Test1/actions/workflows/test-action.yml/badge.svg)](https://github.com/Snoake1/Test1/actions/workflows/test-action.yml)
+[![Coverage Status](https://coveralls.io/repos/Snoake1/Test1/badge.svg?branch=master)](https://coveralls.io/github/Snoake1/Test1?branch=master)
+[![Quality Gate](https://sonarcloud.io/api/project_badges/measure?project=Snoake1_Test1&metric=alert_status)](https://sonarcloud.io/dashboard?id=Snoake1_Test1)
+[![Bugs](https://sonarcloud.io/api/project_badges/measure?project=Snoake1_Test1&metric=bugs)](https://sonarcloud.io/summary/new_code?id=Snoake1_Test1)
+[![Code smells](https://sonarcloud.io/api/project_badges/measure?project=Snoake1_Test1&metric=code_smells)](https://sonarcloud.io/dashboard?id=Snoake1_Test1)
 
 # Пример работы связки Qt + Google Test (gtest) + QtCreator
 
