@@ -48,6 +48,14 @@ TEST(roots, noroots2)
     ASSERT_EQ(0.0, x2);
 }
 
+TEST(roots, tworoots2)
+{
+    double x1 = 0, x2 = 0;
+    ASSERT_EQ(2, solution(1,7,11, &x1, &x2))
+    ASSERT_LT(-3.0, x1)
+    ASSERT_GT(-4.0, x2)
+}
+
 TEST(returnvalue, nosolab)
 {
     double x1 = 0, x2 = 0;
