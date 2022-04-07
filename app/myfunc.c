@@ -13,13 +13,13 @@ int solution(double a, double b, double c, double *x1, double *x2){
     if (a != 0.0)
     {
 	d = b * b - 4 * a * c;
-    if (d > 0.0) {solutiontwo(a, b, d, &*x1, &*x2); return 2;}
+    if (d > 0.0) {solutiontwo(a, b, d, x1, x2); return 2;}
     else {
-        if (d == 0.0) {solutionone(a,b,&*x1); return 1;}
+        if (d == 0.0) {solutionone(a,b, x1); return 1;}
                 else return -1;
     }
     }
-    else return solutionline(b, c, &*x1);
+    else return solutionline(b, c, x1);
     }
 
 
